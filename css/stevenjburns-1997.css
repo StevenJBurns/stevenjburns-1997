@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0
 }
 
 html {
@@ -8,15 +12,15 @@ html {
 }
 
 body {
-  color: #FFFFFF;
-  background: #000000;
+  color: #D7D7D7;
+  background: #5F5F5F;
   font-size: 18px;
   cursor: default
 }
 
 header {
   padding: 8px;
-  background-color: #3F3F3F;
+  background-color: #0F0F0F;
   display:flex;
   align-items: center;
 }
@@ -31,19 +35,39 @@ header h1 {
   display: inline-block;
 }
 
+nav {
+  padding: 24px;
+  background: #3F3F3F;
+}
+
+nav ul li {
+  display: inline-block
+}
+
+li.link {
+  width: 144px;
+  margin: 2px;
+  padding: 2px;
+  color: #000000;
+  background: #FFFF00;
+  border-radius: 4px;
+  display: inline-block;
+}
+
 main {
   width: 80%;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin: auto;
 }
 
 a, a:visited{
   color: #FFFF00;
+  text-decoration: none;
 }
 
 p {
-  padding: 8px;
   font-size: 14px;
-  text-align: justify;
 }
 
 hr {
@@ -51,15 +75,6 @@ hr {
   margin: 12px;
 }
 
-li.link {
-    width: 144px;
-    margin: 2px;
-    padding: 2px;
-    color: #000000;
-    background: #FFFF00;
-    border-radius: 4px;
-    display: inline-block;
-}
 
 img {
     border-style: none;
@@ -74,6 +89,6 @@ img.browser-icon {
 
 footer {
   padding: 8px;
-  background-color: #3F3F3F;
+  background-color: #0F0F0F;
   text-align: center
 }
