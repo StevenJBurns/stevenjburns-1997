@@ -62,7 +62,7 @@ main {
 }
 
 a, a:visited{
-  color: #FFFF00;
+  color: #FFFFB0;
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ p {
 }
 
 hr {
-  border-color: #FFFF00;
+  border-color: #FFFFB0;
   margin: 12px;
 }
 
