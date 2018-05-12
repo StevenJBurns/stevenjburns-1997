@@ -12,9 +12,9 @@ html {
 }
 
 body {
+  font-size: 18px;
   color: #D7D7D7;
   background-color: #4F4F4F;
-  font-size: 18px;
   cursor: default
 }
 
