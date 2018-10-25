@@ -17,10 +17,16 @@
   display: table-cell;
 }
 
-#div-searchengines {
+section#section-search-engines {
   margin: auto;
   text-align: center;
   display: table
+}
+
+section#section-search-engines img {
+  height: 96px;
+  width: 96px;
+  margin: 2px;
 }
 
 #div-searchengines h3 {
@@ -36,9 +42,9 @@
   font-size: 14px;
 }
 
-#img-einstein {
-  margin: auto;
-  height: 256px;
+img#img-einstein {
+  width: 256px;
+  margin: 0 auto;
   display: inline-block
 }
 
