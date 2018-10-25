@@ -62,9 +62,14 @@ main {
   width: 80%;
 }
 
-a, a:visited{
+a:link, a:visited{
   color: #FFFFB0;
   text-decoration: none;
+  transition: color 0.25s
+}
+
+a:hover, a:active {
+  color: #FFFFD0
 }
 
 p {
@@ -86,6 +91,18 @@ nav#nav-external-links {
   background-color: transparent
 }
 
+header#header-external-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent
+}
+
+img.img-external-link {
+  height: 96px;
+  width: 96px
+}
+
 footer {
   padding: 24px 0;
   background-color: #0F0F0F;
@@ -93,11 +110,11 @@ footer {
 }
 
 #img-darn-the-end {
-  margin: 8px 0;
+  margin: 8px 0
 }
 
 #img-web-hit-counter {
-  margin: 12px 0;
+  margin: 12px 0
 }
 
 @media(max-width: 600px) {
