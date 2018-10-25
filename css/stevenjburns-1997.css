@@ -45,21 +45,21 @@ nav ul li {
 }
 
 li.link {
-  width: 144px;
   margin: 2px;
   padding: 2px;
+  width: 144px;
   color: #000000;
-  background: #FFFF00;
+  background-color: #FFFF00;
   border-radius: 4px;
-  display: inline-block;
+  display: inline-block
 }
 
 main {
   flex: 1 0 auto;
-  background: #5F5F5F;
-  padding: 32px;
   margin: auto;
-  width: 80%;
+  width: 100%;
+  max-width: 720px;
+  background: #5F5F5F
 }
 
 a:link, a:visited{
@@ -86,6 +86,10 @@ img {
 }
 
 nav#nav-external-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   max-width: 720px;
   background-color: transparent
@@ -93,14 +97,32 @@ nav#nav-external-links {
 
 header#header-external-links {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   background-color: transparent
 }
 
+#section-external-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 480px
+}
+
 img.img-external-link {
+  margin: 2px;
   height: 96px;
-  width: 96px
+  width: 96px;
+  border: 2px solid #5f5f5f;
+  transition: border 0.25s
+}
+
+img.img-external-link:hover {
+  border: 2px solid #9F9F9F;
 }
 
 footer {
