@@ -35,16 +35,16 @@ header h1 {
   display: inline-block;
 }
 
-nav {
+nav#nav-internal-links {
   padding: 24px;
   background: #3F3F3F;
 }
 
-nav ul li {
-  display: inline-block
+nav#nav-internal-links ul {
+
 }
 
-li.link {
+nav#nav-internal-links li {
   margin: 2px;
   padding: 2px;
   width: 144px;
@@ -52,6 +52,16 @@ li.link {
   background-color: #FFFF00;
   border-radius: 4px;
   display: inline-block
+}
+
+nav#nav-internal-links a:link,
+nav#nav-internal-links a:visited {
+
+}
+
+nav#nav-internal-links a:hover,
+nav#nav-internal-links a:active {
+
 }
 
 main {
@@ -84,12 +94,31 @@ p {
 
 hr {
   margin: 12px;
+  width: 90%;
   max-width: 600px;
   border-color: #FFFFB0;
 }
 
 img {
   border-style: none;
+}
+
+section#section-plug-ins h5 {
+  margin: 0 auto;
+  text-align: center
+}
+
+section#section-plug-ins-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center
+}
+
+section#section-plug-ins img {
+  width: 80px;
+  height: 80px;
+  display: inline-block
 }
 
 nav#nav-external-links {
