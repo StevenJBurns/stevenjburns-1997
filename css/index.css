@@ -2,19 +2,21 @@
   font-size: 16px;
 }
 
-#div-construction {
-  margin: auto;
+section#section-under-construction {
+  display: flex;
+  margin: 0 auto;
   text-align: center;
-  display: table
 }
 
-#div-construction img {
-  display: table-cell;
+section#section-under-construction img {
+  margin: 8px;
+  flex: 1 0 auto;
 }
 
-#div-construction h4 {
-  vertical-align: middle;
-  display: table-cell;
+section#section-under-construction h6 {
+  flex: 1 0 auto;
+  display: inline-block;
+  vertical-align: middle
 }
 
 section#section-search-engines {
